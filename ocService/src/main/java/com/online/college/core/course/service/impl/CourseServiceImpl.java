@@ -46,6 +46,7 @@ public class CourseServiceImpl implements ICourseService{
 	public TailPage<Course> queryPage(Course queryEntity ,TailPage<Course> page){
 		Integer itemsTotalCount = entityDao.getTotalItemsCount(queryEntity);
 		List<Course> items = entityDao.queryPage(queryEntity,page);
+		// 将数据库中图片路径替换成URL
 		if(CollectionUtils.isNotEmpty(items)){
 			for(Course item : items){
 				prepareCoursePicture(item);

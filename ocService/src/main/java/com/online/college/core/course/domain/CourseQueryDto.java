@@ -5,7 +5,7 @@ import org.apache.commons.lang.StringUtils;
 import com.online.college.common.util.BeanUtil;
 
 /**
- * 课程查询实体类
+ * 首页课程查询实体类
  */
 public class CourseQueryDto extends Course{
 	
