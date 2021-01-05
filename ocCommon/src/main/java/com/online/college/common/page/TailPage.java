@@ -12,6 +12,7 @@ public class TailPage<E> extends AbstractPage<E> {
     protected int showPage = 10;//显示10个页码
 	protected List<Integer> showNums = new ArrayList<Integer>();
 	protected boolean showDot = true;
+
 	public TailPage() {}
 	
     /**

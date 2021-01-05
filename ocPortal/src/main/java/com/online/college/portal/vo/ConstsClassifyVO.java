@@ -13,10 +13,10 @@ public class ConstsClassifyVO extends ConstsClassify {
 	
 	private static final long serialVersionUID = -6898939223836635781L;
 
-	//子分类列表
+	// 子分类列表
 	private List<ConstsClassify> subClassifyList = new ArrayList<ConstsClassify>();
 
-	//课程推荐列表
+	// 课程推荐列表
 	private List<Course> recomdCourseList ;
 	
 	public List<ConstsClassify> getSubClassifyList() {
