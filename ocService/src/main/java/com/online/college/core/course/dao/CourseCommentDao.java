@@ -1,9 +1,9 @@
 package com.online.college.core.course.dao;
 
-import java.util.List;
-
 import com.online.college.common.page.TailPage;
 import com.online.college.core.course.domain.CourseComment;
+
+import java.util.List;
 
 
 public interface CourseCommentDao {
@@ -26,7 +26,7 @@ public interface CourseCommentDao {
 	/**
 	*分页获取
 	**/
-	public List<CourseComment> queryPage(CourseComment queryEntity , TailPage<CourseComment> page);
+	public List<CourseComment> queryPage(CourseComment queryEntity, TailPage<CourseComment> page);
 
 	/**
 	*创建新记录

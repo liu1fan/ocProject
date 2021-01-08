@@ -1,14 +1,5 @@
 package com.online.college.portal.controller;
 
-import java.util.List;
-
-import org.apache.commons.lang.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
-
 import com.online.college.common.storage.QiniuStorage;
 import com.online.college.core.auth.domain.AuthUser;
 import com.online.college.core.auth.service.IAuthUserService;
@@ -17,6 +8,14 @@ import com.online.college.core.course.domain.CourseQueryDto;
 import com.online.college.core.course.service.ICourseService;
 import com.online.college.portal.business.ICourseBusiness;
 import com.online.college.portal.vo.CourseSectionVO;
+import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import java.util.List;
 
 /**
  * 课程详情信息

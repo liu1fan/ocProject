@@ -1,20 +1,15 @@
 package com.online.college.portal.business.impl;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.online.college.core.consts.CourseEnum;
 import com.online.college.core.course.domain.CourseSection;
 import com.online.college.core.course.service.ICourseSectionService;
 import com.online.college.portal.business.ICourseBusiness;
 import com.online.college.portal.vo.CourseSectionVO;
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.*;
 
 
 /**

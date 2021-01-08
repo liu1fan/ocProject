@@ -1,9 +1,9 @@
 package com.online.college.portal.vo;
 
+import com.online.college.core.course.domain.CourseSection;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import com.online.college.core.course.domain.CourseSection;
 
 /**
  * 课程章节

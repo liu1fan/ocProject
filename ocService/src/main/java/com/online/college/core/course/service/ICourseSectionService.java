@@ -1,8 +1,9 @@
 package com.online.college.core.course.service;
 
-import java.util.List;
 import com.online.college.common.page.TailPage;
 import com.online.college.core.course.domain.CourseSection;
+
+import java.util.List;
 
 
 public interface ICourseSectionService {
@@ -25,7 +26,7 @@ public interface ICourseSectionService {
 	/**
 	*分页获取
 	**/
-	public TailPage<CourseSection> queryPage(CourseSection queryEntity ,TailPage<CourseSection> page);
+	public TailPage<CourseSection> queryPage(CourseSection queryEntity, TailPage<CourseSection> page);
 
 	/**
 	*创建

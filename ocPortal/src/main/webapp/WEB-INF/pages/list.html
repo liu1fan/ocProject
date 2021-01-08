@@ -61,7 +61,7 @@
         <div>
             <#list page.items as item>
             <#assign n = item_index + 1 />
-            <a href="">
+            <a href="${s.base}/course/learn/${item.id}.html" target="_black">
                 <div class="course-card-container"  <#if n %5 == 0>style="margin-right: 0px;" </#if> >
             <#if n %5 == 0>
             <div class="course-card-top green-bg">

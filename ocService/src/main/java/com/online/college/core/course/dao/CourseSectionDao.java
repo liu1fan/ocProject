@@ -1,9 +1,9 @@
 package com.online.college.core.course.dao;
 
-import java.util.List;
-
 import com.online.college.common.page.TailPage;
 import com.online.college.core.course.domain.CourseSection;
+
+import java.util.List;
 
 
 public interface CourseSectionDao {
@@ -31,7 +31,7 @@ public interface CourseSectionDao {
 	/**
 	*分页获取
 	**/
-	public List<CourseSection> queryPage(CourseSection queryEntity , TailPage<CourseSection> page);
+	public List<CourseSection> queryPage(CourseSection queryEntity, TailPage<CourseSection> page);
 
 	/**
 	*创建新记录

@@ -103,7 +103,7 @@
 					<#if actionCourseList?? && actionCourseList?size gt 0>
 					<#list actionCourseList as item>
 					<#assign n = item_index + 1 />
-					<a href="">
+					<a href="${s.base}/course/learn/${item.id}.html" target="_blank">
 						<div class="course-card-container"  <#if n %5 == 0>style="margin-right: 0px;" </#if> >
 							<#if n %5 == 0>
 							<div class="course-card-top green-bg">
@@ -142,7 +142,7 @@
 					<#if freeCourseList?? && freeCourseList?size gt 0>
 					<#list freeCourseList as item>
 					<#assign n = item_index + 1 />
-					<a href="">
+					<a href="${s.base}/course/learn/${item.id}.html" target="_blank">
 						<div class="course-card-container"  <#if n %5 == 0>style="margin-right: 0px;" </#if> >
 							<#if n %5 == 0>
 							<div class="course-card-top green-bg">
@@ -187,7 +187,7 @@
 				<h3 class="types-title">Java开发工程师</h3>
 				<#if javaCourseList?? && javaCourseList?size gt 0>
 				<#assign javaC0 = javaCourseList[0] />
-				<a href="">
+				<a href="${s.base}/course/learn/${javaC0.id}.html" target="_black">
 				<div class="types-content-left "
 					style="background-image: url(http://img.mukewang.com/58ac18fd00012a4202240348.jpg);">
 					<div class="course-card-container-fix">
@@ -207,12 +207,12 @@
 				<#assign javaC2 = javaCourseList[2] />
 				<div class="types-content-right ">
 					<div class="types-content-banner ">
-						<a target="_blank" href="http://coding.imooc.com/class/81.html" title="${javaC1.name!}">
+						<a target="_blank" href="${s.base}/course/learn/${javaC1.id}.html" title="${javaC1.name!}">
 							<div class="types-content-banner-block green-bg"  style="margin-right:20px;" >
 								${javaC1.name!}
 							</div>
 						</a>
-						<a target="_blank" href="http://coding.imooc.com/class/76.html"  title="${javaC2.name!}">
+						<a target="_blank" href="${s.base}/course/learn/${javaC2.id}.html"  title="${javaC2.name!}">
 							<div class="types-content-banner-block gray-bg"  >
 								${javaC2.name!}
 							</div>
@@ -221,7 +221,7 @@
 					<div class="clearfix">
 						<#list javaCourseList as item>
 							<#if item_index gt 2>
-							<a href="">
+							<a href="${s.base}/course/learn/${item.id}.html" target="_blank">
 								<div class="course-card-container"  <#if item_index == 6>style="margin-right: 0px;" </#if>>
 									<div class="course-card-top green-bg">
 										<span>${item.subClassifyName!}</span>

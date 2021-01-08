@@ -20,7 +20,7 @@ public interface ICourseCommentService {
 	/**
 	*分页获取
 	**/
-	public TailPage<CourseComment> queryPage(CourseComment queryEntity ,TailPage<CourseComment> page);
+	public TailPage<CourseComment> queryPage(CourseComment queryEntity, TailPage<CourseComment> page);
 
 	/**
 	*创建

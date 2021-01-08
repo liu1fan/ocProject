@@ -1,18 +1,17 @@
 package com.online.college.core.course.service.impl;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.online.college.common.page.TailPage;
 import com.online.college.core.course.dao.CourseSectionDao;
 import com.online.college.core.course.domain.CourseSection;
 import com.online.college.core.course.service.ICourseSectionService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 
 @Service
-public class CourseSectionServiceImpl implements ICourseSectionService{
+public class CourseSectionServiceImpl implements ICourseSectionService {
 
 	@Autowired
 	private CourseSectionDao entityDao;
@@ -32,7 +31,7 @@ public class CourseSectionServiceImpl implements ICourseSectionService{
 		return entityDao.getMaxSort(courseId);
 	}
 
-	public TailPage<CourseSection> queryPage(CourseSection queryEntity ,TailPage<CourseSection> page){
+	public TailPage<CourseSection> queryPage(CourseSection queryEntity , TailPage<CourseSection> page){
 		Integer itemsTotalCount = entityDao.getTotalItemsCount(queryEntity);
 		List<CourseSection> items = entityDao.queryPage(queryEntity,page);
 		page.setItemsTotalCount(itemsTotalCount);

@@ -1,8 +1,8 @@
 package com.online.college.portal.business;
 
-import java.util.List;
-
 import com.online.college.portal.vo.CourseSectionVO;
+
+import java.util.List;
 
 public interface ICourseBusiness {
 

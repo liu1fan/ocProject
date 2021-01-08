@@ -5,7 +5,7 @@ import com.online.college.common.orm.BaseEntity;
 /**
  * 课程评论&QA
  */
-public class CourseComment extends BaseEntity{
+public class CourseComment extends BaseEntity {
 
 	private static final long serialVersionUID = 789165716801545108L;
 	
