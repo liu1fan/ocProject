@@ -12,6 +12,9 @@
 	1）ocPortal 业务逻辑代码
 			PortalController.java
 			IPortalBusiness.java
+
+			为了方便将数据处理成一级分类下包含二级分类列表的结构，使用Map存储。
+			key一级分类code，value为一级分类包含二级分类的VO。使用这种数据结构有性能优势。
 			
 	2）ocService中基础代码
 	3）WEB-INF/pages/index.html (freemarker)

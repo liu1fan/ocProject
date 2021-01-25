@@ -7,11 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c26a449b-c969-45c8-bdec-6fe92953eed7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc/wiki/5-03——课程详情页——04关注、收藏.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/wiki/5-04——课程学习页——01页面结构介绍.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/wiki/5-04——课程学习页——02课程章节、评论、问答.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ocPortal/src/main/webapp/static/video.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/doc/wiki/5-03——课程详情页——02课程信息、章节、教师、推荐课程.txt" afterPath="$PROJECT_DIR$/doc/wiki/5-03——课程详情页——02课程信息、章节、教师、推荐课程.txt" />
-      <change beforePath="$PROJECT_DIR$/doc/wiki/5-03——课程详情页——03课程评论、问答.txt" afterPath="$PROJECT_DIR$/doc/wiki/5-03——课程详情页——03课程评论、问答.txt" />
-      <change beforePath="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/learn.html" afterPath="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/learn.html" />
+      <change beforePath="$PROJECT_DIR$/doc/batch.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/doc/wiki/5-01——网站首页——03课程分类，课程推荐.txt" afterPath="$PROJECT_DIR$/doc/wiki/5-01——网站首页——03课程分类，课程推荐.txt" />
+      <change beforePath="$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/web/SessionContext.java" afterPath="$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/web/SessionContext.java" />
+      <change beforePath="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseCommentController.java" afterPath="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseCommentController.java" />
+      <change beforePath="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseController.java" afterPath="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseController.java" />
+      <change beforePath="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/PortalController.java" afterPath="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/PortalController.java" />
+      <change beforePath="$PROJECT_DIR$/ocPortal/target/ocPortal/WEB-INF/pages/learn.html" afterPath="$PROJECT_DIR$/ocPortal/target/ocPortal/WEB-INF/pages/learn.html" />
+      <change beforePath="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseCommentDao.java" afterPath="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseCommentDao.java" />
+      <change beforePath="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseCommentMapper.xml" afterPath="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseCommentMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/domain/CourseComment.java" afterPath="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/domain/CourseComment.java" />
+      <change beforePath="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/ICourseCommentService.java" afterPath="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/ICourseCommentService.java" />
+      <change beforePath="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/impl/CourseCommentServiceImpl.java" afterPath="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/impl/CourseCommentServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/ocOperator/target/" />
     <ignored path="$PROJECT_DIR$/ocCommon/target/" />
@@ -28,53 +40,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="5-03——课程详情页——04关注、收藏.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/wiki/5-03——课程详情页——04关注、收藏.txt">
+      <file leaf-file-name="CourseCommentMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseCommentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="-2020">
+              <caret line="76" column="19" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="learn.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/learn.html">
+      <file leaf-file-name="5-04——课程学习页——02课程章节、评论、问答.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/wiki/5-04——课程学习页——02课程章节、评论、问答.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="240" column="13" lean-forward="false" selection-start-line="240" selection-start-column="13" selection-end-line="240" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectionsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CollectionsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="160">
+              <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/web/SessionContext.java">
+      <file leaf-file-name="CourseCommentController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseCommentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUserCollectionsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/user/service/IUserCollectionsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="400">
+              <caret line="90" column="49" lean-forward="false" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -119,17 +109,14 @@
         <option value="$PROJECT_DIR$/doc/wiki/5-02——课程分类页——03分类课程分页.txt" />
         <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/impl/CourseServiceImpl.java" />
         <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseListController.java" />
-        <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseController.java" />
         <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/index.html" />
         <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/business/ICourseBusiness.java" />
         <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/vo/CourseSectionVO.java" />
         <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/domain/CourseSection.java" />
-        <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/domain/CourseComment.java" />
         <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/business/impl/CourseBusinessImpl.java" />
         <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/ICourseSectionService.java" />
         <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/impl/CourseSectionServiceImpl.java" />
         <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/list.html" />
-        <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/ICourseCommentService.java" />
         <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/user/domain/UserCourseSection.java" />
         <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CollectionsController.java" />
         <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/consts/CourseEnum.java" />
@@ -138,6 +125,18 @@
         <option value="$PROJECT_DIR$/doc/wiki/5-03——课程详情页——02课程信息、章节、教师、推荐课程.txt" />
         <option value="$PROJECT_DIR$/doc/wiki/5-03——课程详情页——04关注、收藏.txt" />
         <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/learn.html" />
+        <option value="$PROJECT_DIR$/doc/batch.sql" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/web/SessionContext.java" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/PortalController.java" />
+        <option value="$PROJECT_DIR$/doc/wiki/5-01——网站首页——03课程分类，课程推荐.txt" />
+        <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/domain/CourseComment.java" />
+        <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseCommentMapper.xml" />
+        <option value="$PROJECT_DIR$/doc/wiki/5-04——课程学习页——02课程章节、评论、问答.txt" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseCommentController.java" />
+        <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/ICourseCommentService.java" />
+        <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/impl/CourseCommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseCommentDao.java" />
       </list>
     </option>
   </component>
@@ -162,11 +161,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-277" />
+    <option name="y" value="-15" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,23 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ocProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ocPortal" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ocProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ocPortal" type="616d4139:PackageViewModuleNode" />
-              <item name="com.online.college.portal" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -221,6 +203,51 @@
               <item name="ocProject" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
               <item name="wiki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ocCommon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ocCommon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ocCommon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ocCommon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ocCommon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ocCommon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
@@ -388,7 +415,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="college" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="consts" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
@@ -399,19 +426,45 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="college" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ocProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ocService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="college" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ocService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="college" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ocService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="college" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ocService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="college" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ocProject" type="b2602c69:ProjectViewProjectNode" />
@@ -441,6 +494,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ocProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ocPortal" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="ocProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ocPortal" type="616d4139:PackageViewModuleNode" />
+              <item name="com.online.college.portal" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,19 +518,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/imooc course/coding-110/ocProject_v503_04/ocProject" />
+    <property name="last_opened_file_path" value="C:/imooc course/coding-110/ocProject_v504_02/ocProject" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="SearchEverywhereHistoryKey" value="app-&#9;FILE&#9;file://C:/myProjects/ocProject/ocPortal/src/main/resources/app-servlet.xml&#10;list&#9;FILE&#9;file://C:/myProjects/ocProject/ocPortal/src/main/webapp/WEB-INF/pages/list.html" />
+    <property name="SearchEverywhereHistoryKey" value="course&#9;FILE&#9;file://C:/myProjects/ocProject/ocPortal/src/main/java/com/online/college/portal/controller/CourseCommentController.java&#10;courseco&#9;FILE&#9;file://C:/myProjects/ocProject/ocPortal/src/main/java/com/online/college/portal/controller/CourseCommentController.java&#10;app-&#9;FILE&#9;file://C:/myProjects/ocProject/ocPortal/src/main/resources/app-servlet.xml&#10;list&#9;FILE&#9;file://C:/myProjects/ocProject/ocPortal/src/main/webapp/WEB-INF/pages/list.html" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\myProjects\ocProject\doc\wiki" />
-      <recent name="C:\myProjects\ocProject\ocService\src\main\java\com\online\college\core" />
-      <recent name="C:\myProjects\ocProject\ocPortal\src\main\webapp\WEB-INF\pages" />
-      <recent name="C:\myProjects\ocProject\ocService\src\main\java\com\online\college\core\course\dao" />
-      <recent name="C:\myProjects\ocProject\ocService\src\main\java\com\online\college\core\course\service\impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\myProjects\ocProject\ocPortal\src\main\webapp\static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.online.college.portal.controller" />
@@ -469,8 +535,12 @@
       <recent name="com.online.college.portal.business.impl" />
       <recent name="com.online.college.core.course.domain" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\myProjects\ocProject\doc\wiki" />
       <recent name="C:\myProjects\ocProject\ocPortal\src\main\webapp\static" />
+      <recent name="C:\myProjects\ocProject\ocService\src\main\java\com\online\college\core" />
+      <recent name="C:\myProjects\ocProject\ocPortal\src\main\webapp\WEB-INF\pages" />
+      <recent name="C:\myProjects\ocProject\ocService\src\main\java\com\online\college\core\course\dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -720,15 +790,19 @@
       <workItem from="1610082576718" duration="4751000" />
       <workItem from="1610088936513" duration="3952000" />
       <workItem from="1610964120488" duration="1430000" />
-      <workItem from="1611557632574" duration="4387000" />
+      <workItem from="1611557632574" duration="5354000" />
+      <workItem from="1611563775377" duration="212000" />
+      <workItem from="1611565060554" duration="1037000" />
+      <workItem from="1611567597008" duration="305000" />
+      <workItem from="1611568407354" duration="6235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35150000" />
+    <option name="totallyTimeSpent" value="43906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -738,19 +812,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25820568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23567921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31164902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36913767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66939443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -779,11 +853,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25820568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23567921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31164902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3698941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -802,134 +876,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseSectionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/business/impl/CourseBusinessImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/error/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="63" column="76" lean-forward="false" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/domain/CourseQueryDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/wiki/batch.sql" />
-    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/consts/dao/ConstsClassifyMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="956">
-          <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/consts/dao/ConstsSiteCarouselDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/auth/dao/AuthUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/test/dao/TestDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/test/dao/TestMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocService/src/test/java/com/online/college/service/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/impl/CourseCommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/ICourseCommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/resources/app-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/webapp/static/comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/install.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/batch.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/user/domain/UserCourseSection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1004,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,12 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="e#287#288#0" expanded="false" />
-            <element signature="e#312#313#0" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#358#359#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,10 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="e#708#709#0" expanded="false" />
-            <element signature="e#753#754#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,7 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
           <caret line="190" column="78" lean-forward="false" selection-start-line="190" selection-start-column="76" selection-end-line="190" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,15 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseCommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,18 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="79" column="51" lean-forward="false" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
-          <folding>
-            <element signature="e#1688#1706#0" expanded="false" />
-            <element signature="e#2115#2131#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/PortalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,15 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="64" column="47" lean-forward="false" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,17 +1052,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/web/SessionContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/user/service/IUserCollectionsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="300">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
@@ -1173,19 +1062,209 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CollectionsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="480">
           <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/batch.sql" />
+    <entry file="file://$PROJECT_DIR$/doc/wiki/5-04——课程学习页——01页面结构介绍.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/learn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="320">
           <caret line="240" column="13" lean-forward="false" selection-start-line="240" selection-start-column="13" selection-end-line="240" selection-end-column="13" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/webapp/static/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1607502226923" expanded="true" signature="2516:2541" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/web/SessionContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/vo/ConstsClassifyVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#896#897#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/domain/CourseSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-760">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/vo/CourseSectionVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/PortalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="52" column="66" lean-forward="false" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/business/IPortalBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/wiki/5-02——课程分类页——02课程分类筛选.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/business/impl/PortalBusinessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/wiki/5-01——网站首页——03课程分类，课程推荐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/business/impl/CourseBusinessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="63" lean-forward="false" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/business/ICourseBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="101" column="46" lean-forward="false" selection-start-line="101" selection-start-column="46" selection-end-line="101" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/domain/CourseComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/ICourseSectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/ICourseCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/impl/CourseCommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="65" column="24" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <element signature="e#1633#1634#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseCommentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseCommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2020">
+          <caret line="76" column="19" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/wiki/5-04——课程学习页——02课程章节、评论、问答.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="90" column="49" lean-forward="false" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

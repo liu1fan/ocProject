@@ -54,6 +54,6 @@ public interface CourseCommentDao {
 	public void deleteLogic(CourseComment entity);
 
 
-
+	public void createSelectivity(CourseComment entity);
 }
 

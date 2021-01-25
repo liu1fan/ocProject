@@ -49,7 +49,7 @@ public class PortalController {
 		List<ConstsSiteCarousel> carouselList = siteCarouselService.queryCarousels(4);
 		mv.addObject("carouselList", carouselList);
 		
-		//课程分类(一级分类）
+		//课程分类
 		List<ConstsClassifyVO> classifys = portalBusiness.queryAllClassify();
 		
 		//课程推荐

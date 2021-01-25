@@ -61,6 +61,10 @@ public class CourseCommentServiceImpl implements ICourseCommentService{
 		entityDao.deleteLogic(entity);
 	}
 
+	@Override
+	public void createSelectivity(CourseComment entity) {
+		entityDao.createSelectivity(entity);
+	}
 
 
 }

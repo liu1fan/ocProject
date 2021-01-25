@@ -54,7 +54,11 @@ public class CourseComment extends BaseEntity {
 	**/
 	private Integer type;
 
-	
+	/**
+	 * 用户头像
+	 */
+	private String header;
+
 	public String getUsername(){
 		return username;
 	}
@@ -118,7 +122,12 @@ public class CourseComment extends BaseEntity {
 		this.type = type;
 	}
 
+	public String getHeader() {
+		return header;
+	}
 
-
+	public void setHeader(String header) {
+		this.header = header;
+	}
 }
 

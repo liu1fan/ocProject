@@ -19,6 +19,8 @@
 		<result column="update_time" property="updateTime"  jdbcType="TIMESTAMP" />
 		<result column="update_user" property="updateUser"  jdbcType="VARCHAR" />
 		<result column="del" property="del"  jdbcType="TINYINT" />
+
+		<result column="header" property="header"  jdbcType="VARCHAR" />
 	</resultMap> 
 
 
@@ -52,22 +54,27 @@
 	</select>
 
 	<select id="queryPage" resultMap="BeanResultMap">
-		SELECT 
-		<include refid="All_Columns" />
-		FROM t_course_comment
+		SELECT
+		c.username, c.to_username, c.course_id, c.section_id, c.section_title, c.content,
+		c.ref_id, c.ref_content, c.type, c.create_time, c.create_user, c.update_time,
+		c.update_user, c.del, c.id, u.header
+
+		FROM t_course_comment c
+		LEFT JOIN t_auth_user u
+		ON c.username = u.username
 		<trim prefix="WHERE " prefixOverrides="AND |OR "> 
 			<if test="param1.type != null">
-				AND type = #{param1.type, jdbcType=INTEGER}
+				AND c.type = #{param1.type, jdbcType=INTEGER}
 			</if>
 			<if test="param1.courseId != null">
-				AND course_id = #{param1.courseId, jdbcType=INTEGER}
+				AND c.course_id = #{param1.courseId, jdbcType=INTEGER}
 			</if>
 			<if test="param1.sectionId != null">
-				AND section_id = #{param1.sectionId, jdbcType=INTEGER}
+				AND c.section_id = #{param1.sectionId, jdbcType=INTEGER}
 			</if>
-			AND del = 0
+			AND c.del = 0
 		</trim> 
-		ORDER BY id DESC
+		ORDER BY c.id DESC
 		LIMIT #{param2.startIndex, jdbcType=INTEGER} , #{param2.pageSize, jdbcType=INTEGER} 
 	</select>
 

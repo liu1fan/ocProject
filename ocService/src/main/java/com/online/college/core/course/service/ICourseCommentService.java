@@ -47,7 +47,10 @@ public interface ICourseCommentService {
 	**/
 	public void deleteLogic(CourseComment entity);
 
-
-
+	/**
+	 * 有选择的创建
+	 * @param entity
+	 */
+	void createSelectivity(CourseComment entity);
 }
 

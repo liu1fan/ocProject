@@ -217,10 +217,11 @@
 
     //收藏
     function doCollect(courseId,url){
+        // 如果单击收藏五角星，则收藏
         if(url == undefined){
             url = '${s.base}/collections/doCollection.html';
         }
-        //处理收藏
+        //查询是否收藏
         $.ajax({
             url:url,
             type:'POST',
