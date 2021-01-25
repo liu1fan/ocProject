@@ -79,7 +79,17 @@ public class CourseController {
 		queryEntity.setSubClassify(course.getSubClassify());
 		List<Course> recomdCourseList = this.courseService.queryList(queryEntity);
 		mv.addObject("recomdCourseList", recomdCourseList);
-		
+
+		//当前学习的章节
+		UserCourseSection userCourseSection = new UserCourseSection();
+		userCourseSection.setCourseId(course.getId());
+		userCourseSection.setUserId(SessionContext.getUserId());
+		userCourseSection = this.userCourseSectionService.queryLatest(userCourseSection);
+		if(null != userCourseSection){
+			CourseSection curCourseSection = this.courseSectionService.getById(userCourseSection.getSectionId());
+			mv.addObject("curCourseSection", curCourseSection);
+		}
+
 		return mv;
 	}
 
@@ -102,7 +112,7 @@ public class CourseController {
 		mv.addObject("courseSection", courseSection);
 		mv.addObject("chaptSections", chaptSections);
 
-		//学习记录
+		//存储学习记录 仅查询最近一条学习本章节的记录，无则新增一条；有则将日期更改到最新
 		UserCourseSection userCourseSection = new UserCourseSection();
 		userCourseSection.setUserId(SessionContext.getUserId());
 		userCourseSection.setCourseId(courseSection.getCourseId());
