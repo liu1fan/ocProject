@@ -13,6 +13,8 @@
 	1）learn.html
 	2）CourseCommentController
 	3）commentSegment.html
+
+	使用jQuery的Ajax请求将评论、问答信息以json字符串返回给前端。
 	
 三、开发（实战）；
 	代码实战讲解
