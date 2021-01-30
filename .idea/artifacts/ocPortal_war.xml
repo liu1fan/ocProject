@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="ocPortal:war">
-    <output-path>$PROJECT_DIR$/ocPortal/target</output-path>
-    <root id="archive" name="ocPortal.war">
-      <element id="artifact" artifact-name="ocPortal:war exploded" />
-    </root>
-  </artifact>
-</component>
